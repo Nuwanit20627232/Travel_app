@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tourists are welcome in Sri Lanka"
+            android:textColor="#258BDC"
+            android:textSize="26sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="486dp"
+            app:srcCompat="@drawable/download" />
+
+        <Button
+            android:id="@+id/btnall"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="Travel Guid"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/planvisit"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="Plan your trip"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/polonnaruwa" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
